@@ -1,0 +1,14 @@
+checkpoint file: checkpoint.zip 8,056,809,469 bytes
+archive size: 8,056,809,469 bytes (8.06 GB)
+files in archive:
+  chat_template.jinja  0.0 MB  method=0
+  config.json  0.0 MB  method=0
+  generation_config.json  0.0 MB  method=0
+  model.safetensors  8,045.4 MB  method=0
+  tokenizer.json  11.4 MB  method=0
+  tokenizer_config.json  0.0 MB  method=0
+  training_args.bin  0.0 MB  method=0
+config.json: model_type=qwen3 archs=['Qwen3ForCausalLM'] torch_dtype=bfloat16 hidden=2560 layers=36 vocab=151936 tie_word_embeddings=True quant=None
+generation_config.json: model_type=None archs=None torch_dtype=None hidden=None layers=None vocab=None tie_word_embeddings=None quant=None
+tokenizer_config.json: model_type=None archs=None torch_dtype=None hidden=None layers=None vocab=None tie_word_embeddings=None quant=None
+total params: 4,022,468,096 (4.0225 B)   dtypes: {'F32': 196096, 'BF16': 4022272000}

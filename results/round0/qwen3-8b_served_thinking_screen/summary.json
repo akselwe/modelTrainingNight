@@ -1,0 +1,19 @@
+{
+ "n": 100,
+ "errors": 1,
+ "strict_match": 0.8,
+ "strict_stderr": 0.0402,
+ "flexible_extract": 0.81,
+ "format_free_diagnostic": 0.91,
+ "missing_hash_answer": 12,
+ "truncated_length": 0,
+ "think_tag_in_content": 0,
+ "with_reasoning_tokens": 99,
+ "mean_completion_tokens": 948.2,
+ "max_completion_tokens": 3733,
+ "cost_usd": 0.054994,
+ "providers": [
+  "Alibaba"
+ ],
+ "doc_ids": "0-99"
+}

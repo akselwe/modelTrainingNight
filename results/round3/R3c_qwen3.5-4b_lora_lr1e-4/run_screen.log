@@ -1,0 +1,27 @@
+R3c_qwen3.5-4b_lora_lr1e-4: 195 docs to run (5 already done), spent so far $0.0000
+  25/195 done, spent $0.0000
+  50/195 done, spent $0.0000
+  75/195 done, spent $0.0000
+  100/195 done, spent $0.0000
+  125/195 done, spent $0.0000
+  150/195 done, spent $0.0000
+  175/195 done, spent $0.0000
+{
+ "n": 200,
+ "errors": 0,
+ "strict_match": 0.825,
+ "strict_stderr": 0.0269,
+ "flexible_extract": 0.825,
+ "format_free_diagnostic": 0.825,
+ "missing_hash_answer": 0,
+ "truncated_length": 0,
+ "think_tag_in_content": 0,
+ "with_reasoning_tokens": 0,
+ "mean_completion_tokens": 125.2,
+ "max_completion_tokens": 398,
+ "cost_usd": 0,
+ "providers": [
+  "?"
+ ],
+ "doc_ids": "0-199"
+}

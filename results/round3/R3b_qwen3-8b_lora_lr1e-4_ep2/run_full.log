@@ -1,0 +1,52 @@
+R3b_qwen3-8b_lora_lr1e-4_ep2: 800 docs to run (200 already done), spent so far $0.0000
+  25/800 done, spent $0.0000
+  50/800 done, spent $0.0000
+  75/800 done, spent $0.0000
+  100/800 done, spent $0.0000
+  125/800 done, spent $0.0000
+  150/800 done, spent $0.0000
+  175/800 done, spent $0.0000
+  200/800 done, spent $0.0000
+  225/800 done, spent $0.0000
+  250/800 done, spent $0.0000
+  275/800 done, spent $0.0000
+  300/800 done, spent $0.0000
+  325/800 done, spent $0.0000
+  350/800 done, spent $0.0000
+  375/800 done, spent $0.0000
+  400/800 done, spent $0.0000
+  425/800 done, spent $0.0000
+  450/800 done, spent $0.0000
+  475/800 done, spent $0.0000
+  500/800 done, spent $0.0000
+  525/800 done, spent $0.0000
+  550/800 done, spent $0.0000
+  575/800 done, spent $0.0000
+  600/800 done, spent $0.0000
+  625/800 done, spent $0.0000
+  650/800 done, spent $0.0000
+  675/800 done, spent $0.0000
+  700/800 done, spent $0.0000
+  725/800 done, spent $0.0000
+  750/800 done, spent $0.0000
+  775/800 done, spent $0.0000
+  800/800 done, spent $0.0000
+{
+ "n": 1000,
+ "errors": 0,
+ "strict_match": 0.897,
+ "strict_stderr": 0.0096,
+ "flexible_extract": 0.898,
+ "format_free_diagnostic": 0.898,
+ "missing_hash_answer": 1,
+ "truncated_length": 0,
+ "think_tag_in_content": 0,
+ "with_reasoning_tokens": 0,
+ "mean_completion_tokens": 127.3,
+ "max_completion_tokens": 384,
+ "cost_usd": 0,
+ "providers": [
+  "?"
+ ],
+ "doc_ids": "0-999"
+}

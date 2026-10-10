@@ -1,0 +1,28 @@
+R3a_qwen3-8b_lora_lr2e-4: 200 docs to run (0 already done), spent so far $0.0000
+  25/200 done, spent $0.0000
+  50/200 done, spent $0.0000
+  75/200 done, spent $0.0000
+  100/200 done, spent $0.0000
+  125/200 done, spent $0.0000
+  150/200 done, spent $0.0000
+  175/200 done, spent $0.0000
+  200/200 done, spent $0.0000
+{
+ "n": 200,
+ "errors": 0,
+ "strict_match": 0.875,
+ "strict_stderr": 0.0234,
+ "flexible_extract": 0.875,
+ "format_free_diagnostic": 0.875,
+ "missing_hash_answer": 0,
+ "truncated_length": 0,
+ "think_tag_in_content": 0,
+ "with_reasoning_tokens": 0,
+ "mean_completion_tokens": 126.0,
+ "max_completion_tokens": 390,
+ "cost_usd": 0,
+ "providers": [
+  "?"
+ ],
+ "doc_ids": "0-199"
+}

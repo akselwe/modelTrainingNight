@@ -1,0 +1,29 @@
+Downloading hf-xet (3.4MiB)
+ Downloaded hf-xet
+Installed 71 packages in 943ms
+2026-10-08:12:53:34 WARNING  [config.evaluate_config:337] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-10-08:12:54:17 WARNING  [tasks._index:70] Task 'math_word_problems' from None overrides existing task from None
+2026-10-08:12:54:17 INFO     [_cli.run:391] Including path: scripts/gsm8k_val
+2026-10-08:12:54:17 INFO     [_cli.run:392] Selected Tasks: ['gsm8k_val']
+2026-10-08:12:54:17 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-10-08:12:54:17 WARNING  [evaluator:226] generation_kwargs: {'max_gen_toks': 1024, 'temperature': 0, 'do_sample': False, 'chat_template_kwargs': {'enable_thinking': False}} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+2026-10-08:12:54:17 INFO     [evaluator:239] Initializing local-chat-completions model, with arguments: {'model': 'meta-llama/llama-3.2-3b-instruct', 'base_url': 'https://api.overmindlab.ai/api/v1/chat/completions', 'num_concurrent': 16, 'max_retries': 5, 'tokenized_requests': False}
+2026-10-08:12:54:24 INFO     [models.api_models:176] Using max length 2048 - 1
+2026-10-08:12:54:24 INFO     [models.api_models:197] Using tokenizer None
+2026-10-08:12:54:31 INFO     [evaluator_utils:472] Selected tasks:
+2026-10-08:12:54:31 INFO     [evaluator_utils:506] Task: gsm8k_val (scripts/gsm8k_val/gsm8k_val.yaml)
+2026-10-08:12:54:31 INFO     [evaluator:314] gsm8k_val: Using gen_kwargs: {'until': ['Question:', '</s>', '<|im_end|>'], 'do_sample': False, 'temperature': 0, 'max_gen_toks': 1024, 'chat_template_kwargs': {'enable_thinking': False}}
+2026-10-08:12:54:31 WARNING  [evaluator:335] Overwriting default num_fewshot of gsm8k_val from 5 to 5
+2026-10-08:12:54:31 INFO     [api.task:312] Building contexts for gsm8k_val on rank 0...
+  0%|          | 0/100 [00:00<?, ?it/s] 68%|██████▊   | 68/100 [00:00<00:00, 678.73it/s]100%|██████████| 100/100 [00:00<00:00, 680.33it/s]
+2026-10-08:12:54:31 INFO     [evaluator:589] Running generate_until requests
+2026-10-08:12:54:31 INFO     [models.api_models:752] Tokenized requests are disabled. Context + generation length is not checked.
+Requesting API:   0%|          | 0/100 [00:00<?, ?it/s]Requesting API:   1%|          | 1/100 [00:02<04:30,  2.73s/it]Requesting API:  13%|█▎        | 13/100 [00:02<00:13,  6.25it/s]Requesting API:  19%|█▉        | 19/100 [00:03<00:13,  5.91it/s]Requesting API:  23%|██▎       | 23/100 [00:04<00:10,  7.65it/s]Requesting API:  27%|██▋       | 27/100 [00:04<00:07,  9.86it/s]Requesting API:  31%|███       | 31/100 [00:04<00:08,  8.38it/s]Requesting API:  34%|███▍      | 34/100 [00:05<00:07,  8.61it/s]Requesting API:  41%|████      | 41/100 [00:05<00:04, 13.67it/s]Requesting API:  45%|████▌     | 45/100 [00:05<00:04, 13.30it/s]Requesting API:  48%|████▊     | 48/100 [00:06<00:05, 10.33it/s]Requesting API:  51%|█████     | 51/100 [00:06<00:04, 11.97it/s]Requesting API:  54%|█████▍    | 54/100 [00:06<00:03, 13.99it/s]Requesting API:  57%|█████▋    | 57/100 [00:06<00:02, 16.17it/s]Requesting API:  60%|██████    | 60/100 [00:06<00:02, 15.04it/s]Requesting API:  63%|██████▎   | 63/100 [00:07<00:03,  9.93it/s]Requesting API:  69%|██████▉   | 69/100 [00:07<00:02, 14.79it/s]Requesting API:  72%|███████▏  | 72/100 [00:07<00:02, 13.46it/s]Requesting API:  74%|███████▍  | 74/100 [00:07<00:01, 14.15it/s]Requesting API:  76%|███████▌  | 76/100 [00:08<00:02, 10.54it/s]Requesting API:  78%|███████▊  | 78/100 [00:08<00:01, 11.68it/s]Requesting API:  83%|████████▎ | 83/100 [00:08<00:00, 17.57it/s]Requesting API:  86%|████████▌ | 86/100 [00:08<00:00, 17.29it/s]Requesting API:  89%|████████▉ | 89/100 [00:08<00:00, 15.72it/s]Requesting API:  91%|█████████ | 91/100 [00:09<00:00, 11.80it/s]Requesting API:  94%|█████████▍| 94/100 [00:09<00:00, 12.42it/s]Requesting API:  96%|█████████▌| 96/100 [00:09<00:00, 11.73it/s]Requesting API:  99%|█████████▉| 99/100 [00:09<00:00, 11.52it/s]Requesting API: 100%|██████████| 100/100 [00:10<00:00,  9.38it/s]
+2026-10-08:12:54:42 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-10-08:12:54:42 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to results/round0/llama-3.2-3b-instruct_endpoint/meta-llama__llama-3.2-3b-instruct/*.jsonl
+local-chat-completions ({'model': 'meta-llama/llama-3.2-3b-instruct', 'base_url': 'https://api.overmindlab.ai/api/v1/chat/completions', 'num_concurrent': 16, 'max_retries': 5, 'tokenized_requests': False}), gen_kwargs: ({'max_gen_toks': 1024, 'temperature': 0, 'do_sample': False, 'chat_template_kwargs': {'enable_thinking': False}}), limit: 100.0, num_fewshot: 5, batch_size: 1
+|  Tasks  |Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|---------|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k_val|      3|flexible-extract|     5|exact_match|↑  | 0.77|±  |0.0423|
+|         |       |strict-match    |     5|exact_match|↑  | 0.70|±  |0.0461|
+

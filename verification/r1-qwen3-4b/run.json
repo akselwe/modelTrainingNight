@@ -1,0 +1,13 @@
+{
+  "overmind_project_id": "2e0e9ea2-9ddd-4c96-80e4-d48121d8b8dd",
+  "finetune_job_id": "4433e717-e066-4e8b-ba22-d1e8a224dec5",
+  "group_id": "14689202-a3b7-45c2-824a-b1e95a450cef",
+  "run_name": "r1-qwen3-4b-full-lr1e-5-ep3",
+  "base_model": "Qwen/Qwen3-4B",
+  "train_dataset": {"id": "3b8f1976-a556-4161-90e1-3e224047a8c9", "cell": "b2d361bc-619f-429b-bd70-6834fa0648d3", "rows": 6473, "local_file": "data/train_sft.jsonl"},
+  "eval_dataset": {"id": "b4dd42c2-0361-4b18-b441-0122fee91878", "cell": "be2b30df-45a3-444d-8383-641054bf2a0a", "rows": 1000, "local_file": "data/val_eval.jsonl"},
+  "eval_set": "9053b680-e9a8-4a02-baec-d8c10a9e0d5f",
+  "hyperparameters": {"n_epochs": 3, "learning_rate": 1e-05, "batch_size": 16, "warmup_ratio": 0.05, "context_length": 4096, "training_type": {"type": "Full"}},
+  "validation_enabled": false,
+  "launched_at": "2026-10-06T04:44:55Z"
+}

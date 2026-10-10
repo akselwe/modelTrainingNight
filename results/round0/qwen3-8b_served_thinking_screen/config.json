@@ -1,0 +1,14 @@
+{
+ "model": "qwen/qwen3-8b",
+ "suffix": "",
+ "thinking": true,
+ "max_tokens": 1024,
+ "temperature": 0,
+ "stop": [
+  "Question:",
+  "</s>",
+  "<|im_end|>"
+ ],
+ "docs": "0-99",
+ "dataset": "data/val_eval_5shot_chat.jsonl"
+}

@@ -1,0 +1,5 @@
+samples=1000 wrong=181 strict_acc=81.90%
+  wrong reasoning: 158
+  arithmetic slip: 20
+  missing/malformed ####: 3
+response chars: median=221 max=2682

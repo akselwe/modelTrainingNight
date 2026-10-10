@@ -1,0 +1,8 @@
+R3b was selected on the screen (docs 0-199). Score split by docs used / not used for selection
+(strict-match, lm-eval rules via scripts/served_eval.py; A = Runde-1 samples on the same docs):
+
+docs 0-199   (n=200, used for screening): R3b 177/200 = 88.50% (SE 2.26)  A 86.50%  R3b-only 7  A-only 3
+docs 200-999 (n=800, not used):           R3b 720/800 = 90.00% (SE 1.06)  A 87.12%  R3b-only 41 A-only 18
+docs 0-999   (n=1000, full val):          R3b 897/1000 = 89.70% (SE 0.96; 95% CI 87.8-91.6)  A 87.00%
+Paired sign test vs A on 0-999: 48 vs 21 discordant, two-sided p = 0.002.
+Only missing-#### answer: doc 781 (LaTeX \boxed{5}, number right).

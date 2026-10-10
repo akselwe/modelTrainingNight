@@ -1,0 +1,14 @@
+file: results/round2/R2a2_qwen3-8b_lora_lr5e-6/samples.jsonl
+docs 0-199: n=200  API errors=0
+strict 165/200 = 0.8250   flex 0.8600   format_free 0.8700
+missing ####: 9   #### present but wrong: 26
+finish_reason: {'stop': 200}   truncated(length): 0
+thinking: <think> in content 0 | reasoning_tokens>0 0 | reasoning field non-empty 0
+completion tokens median/mean/max: 123 / 136 / 440
+has <<calc>>: 173   boxed: 7
+untouched 8B on same docs (n=200): strict 0.8150, format-free 0.9350
+  base strict-correct kept (variant strict-correct): 148/163
+  base right-number (format-free) kept: 164/187  | lost 23 | newly fixed (base ff wrong, variant right) 1
+A (round1) on same docs (n=200): strict 0.8650
+  variant right & A wrong: 8 | variant wrong & A right: 16
+  A: base right-number kept 171/187

@@ -1,0 +1,14 @@
+file: results/round0/qwen3-8b_served_nothink_full/samples.jsonl
+docs 0-199: n=200  API errors=0
+strict 163/200 = 0.8150   flex 0.8600   format_free 0.9350
+missing ####: 30   #### present but wrong: 7
+finish_reason: {'stop': 200}   truncated(length): 0
+thinking: <think> in content 0 | reasoning_tokens>0 0 | reasoning field non-empty 0
+completion tokens median/mean/max: 139 / 158 / 518
+has <<calc>>: 39   boxed: 21
+untouched 8B on same docs (n=200): strict 0.8150, format-free 0.9350
+  base strict-correct kept (variant strict-correct): 163/163
+  base right-number (format-free) kept: 163/187  | lost 24 | newly fixed (base ff wrong, variant right) 0
+A (round1) on same docs (n=200): strict 0.8650
+  variant right & A wrong: 12 | variant wrong & A right: 22
+  A: base right-number kept 171/187

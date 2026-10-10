@@ -1,0 +1,17 @@
+n=1000
+think tags in content: 0
+reasoning field non-empty: 0
+reasoning_tokens>0: 0
+errors (no content): 0
+finish_reason: {'stop': 1000}
+missing ####: 26
+boxed: 12
+multiple ####: 0
+has <<calc>>: 969
+chars median/mean/max: 236.0 259 1337
+completion tokens median/mean/max: 107.0 117 475
+strict 0.8190 flex 0.8360 format_free 0.8390
+#### present but wrong number: 155
+vs base Qwen3-8B served (n=1000): base strict 0.8190, base format-free 0.9430
+  this right & base(format-free) wrong: 14 | this wrong & base(format-free) right: 138 | both wrong: 43
+vs r1 Qwen3-4B full FT (n=1000): r1 strict 0.8190; this right&r1 wrong 81, this wrong&r1 right 81

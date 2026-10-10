@@ -1,0 +1,8 @@
+# Validation eval (1,000 rows carved from train; chat mode against the Overmind-served model, FP8 serving)
+bash scripts/eval_overmind_endpoint.sh ft-4433e717-qwen3-4b val
+# = lm-eval 0.4.13 (uvx, Python 3.12):
+# lm_eval --model local-chat-completions --model_args model=ft-4433e717-qwen3-4b,base_url=https://api.overmindlab.ai/api/v1/chat/completions,num_concurrent=16,max_retries=5,tokenized_requests=False \
+#   --include_path scripts/gsm8k_val --tasks gsm8k_val --num_fewshot 5 --apply_chat_template --fewshot_as_multiturn \
+#   --gen_kwargs '{"max_gen_toks": 1024, "temperature": 0, "do_sample": false, "chat_template_kwargs": {"enable_thinking": false}}' \
+#   --log_samples --output_path results/endpoint_val_ft-4433e717-qwen3-4b
+# Result: strict-match 0.819 (stderr 0.0122), flexible-extract 0.821, n=1000

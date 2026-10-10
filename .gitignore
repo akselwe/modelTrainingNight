@@ -1,3 +1,20 @@
 .DS_Store
 .env
 node_modules
+.overmind/
+overmind.toml
+.venv/
+weights/
+__pycache__/
+
+# Agent/working notes (kept local)
+.claude/
+CLAUDE_CODE_PROMPT.md
+SPEC.md
+RESULTS.md
+
+# Billing/credit snapshots and raw platform API dumps (kept local)
+results/**/overmind/
+results/**/*credits*
+# Duplicate of verification/r1-qwen3-4b
+results/endpoint_val_ft-4433e717-qwen3-4b/

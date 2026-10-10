@@ -1,0 +1,13 @@
+# Same as lm-eval's gsm8k task (prompt, 5-shot, filters, greedy), but scores OUR 1,000 validation
+# rows carved from the train split. Few-shot examples come from train-minus-val, so a val question
+# never shows up as its own example. Run from the repo root:
+#   lm_eval --include_path scripts/gsm8k_val --tasks gsm8k_val --gen_kwargs max_gen_toks=1024 ...
+# First run: confirm the printed n-samples is 1000 and the prompt in --log_samples looks like gsm8k.
+include: gsm8k.yaml
+task: gsm8k_val
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    train: data/train_fewshot_raw.jsonl
+    test: data/val_raw.jsonl
