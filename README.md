@@ -4,6 +4,8 @@ Fine-tuning small open models on grade-school maths word problems (GSM8K), built
 
 The challenge score was test accuracy minus model size in billions of parameters, so the task was to find the best accuracy per parameter, not just the best accuracy.
 
+**Best result so far:** fine-tuning Qwen3-8B raised accuracy on 1,000 held-out questions from **81.9% to 89.7%** (strict match, same evaluation before and after). See [Results](#results-before-and-after-fine-tuning-qwen3-8b).
+
 ## What I did
 
 - **Model choice from published results.** I picked Qwen3-4B for the single training run the free plan allowed, based on the base-model GSM8K numbers in the Qwen3 technical report ([arXiv:2505.09388](https://arxiv.org/abs/2505.09388), Table 8), weighing accuracy against parameter count.
