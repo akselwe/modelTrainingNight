@@ -6,7 +6,8 @@
 
 1. Update the **Best result so far** line at the top of `README.md` (before → after, model name).
 2. Add the run as a new row in the **Results: before and after fine-tuning** table, with the path to its folder in `results/`.
-3. Only report numbers measured with the same evaluation as the existing rows (lm-eval 5-shot chat prompts, greedy, strict match on `#### N`, the same 1,000 validation questions). Never use the GSM8K test split.
+3. Only report numbers measured with the same evaluation as the existing rows (lm-eval 5-shot chat prompts, greedy, strict match on `#### N`, the same 1,000 validation questions). Never use the GSM8K test split for training, model selection or the results table.
+   - The one exception is the official test result: the test split was run once, on 12 October 2026, on the model already chosen on validation (Qwen3-14B, 94.0%). It is reported on its own, marked as a single final run. Do not run the test split again or compare variants on it; a new best on validation does not get a test number.
 4. State before and after for the same base model. Do not claim an improvement for a model whose untouched baseline was not measured.
 5. Keep internal details out of the README: credits, costs, job or deployment IDs and API keys.
 

@@ -1,0 +1,26 @@
+2026-10-12:10:14:34 WARNING  [config.evaluate_config:337] --limit SHOULD ONLY BE USED FOR TESTING. REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2026-10-12:10:14:59 WARNING  [tasks._index:70] Task 'math_word_problems' from None overrides existing task from None
+2026-10-12:10:14:59 INFO     [_cli.run:391] Including path: scripts/gsm8k_val
+2026-10-12:10:14:59 INFO     [_cli.run:392] Selected Tasks: ['gsm8k_val']
+2026-10-12:10:14:59 INFO     [evaluator:214] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-10-12:10:14:59 WARNING  [evaluator:226] generation_kwargs: {'max_gen_toks': 1024, 'temperature': 0, 'do_sample': False, 'chat_template_kwargs': {'enable_thinking': False}} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+2026-10-12:10:14:59 INFO     [evaluator:239] Initializing local-chat-completions model, with arguments: {'model': 'ft-979f9c8f-qwen3-14b', 'base_url': 'https://api.overmindlab.ai/api/v1/chat/completions', 'num_concurrent': 16, 'max_retries': 5, 'tokenized_requests': False}
+2026-10-12:10:15:01 INFO     [models.api_models:176] Using max length 2048 - 1
+2026-10-12:10:15:01 INFO     [models.api_models:197] Using tokenizer None
+2026-10-12:10:15:10 INFO     [evaluator_utils:472] Selected tasks:
+2026-10-12:10:15:10 INFO     [evaluator_utils:506] Task: gsm8k_val (scripts/gsm8k_val/gsm8k_val.yaml)
+2026-10-12:10:15:10 INFO     [evaluator:314] gsm8k_val: Using gen_kwargs: {'until': ['Question:', '</s>', '<|im_end|>'], 'do_sample': False, 'temperature': 0, 'max_gen_toks': 1024, 'chat_template_kwargs': {'enable_thinking': False}}
+2026-10-12:10:15:10 WARNING  [evaluator:335] Overwriting default num_fewshot of gsm8k_val from 5 to 5
+2026-10-12:10:15:10 INFO     [api.task:312] Building contexts for gsm8k_val on rank 0...
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 605.90it/s]
+2026-10-12:10:15:10 INFO     [evaluator:589] Running generate_until requests
+2026-10-12:10:15:10 INFO     [models.api_models:752] Tokenized requests are disabled. Context + generation length is not checked.
+Requesting API:   0%|          | 0/5 [00:00<?, ?it/s]Requesting API:  20%|██        | 1/5 [00:14<00:59, 14.93s/it]Requesting API:  40%|████      | 2/5 [00:15<00:19,  6.52s/it]Requesting API:  60%|██████    | 3/5 [00:19<00:10,  5.33s/it]Requesting API:  80%|████████  | 4/5 [00:19<00:03,  3.28s/it]Requesting API: 100%|██████████| 5/5 [00:21<00:00,  2.74s/it]Requesting API: 100%|██████████| 5/5 [00:21<00:00,  4.28s/it]
+2026-10-12:10:15:32 INFO     [loggers.evaluation_tracker:247] Saving results aggregated
+2026-10-12:10:15:32 INFO     [loggers.evaluation_tracker:119] Saving per-task samples to results/endpoint_val_ft-979f9c8f-qwen3-14b/ft-979f9c8f-qwen3-14b/*.jsonl
+local-chat-completions ({'model': 'ft-979f9c8f-qwen3-14b', 'base_url': 'https://api.overmindlab.ai/api/v1/chat/completions', 'num_concurrent': 16, 'max_retries': 5, 'tokenized_requests': False}), gen_kwargs: ({'max_gen_toks': 1024, 'temperature': 0, 'do_sample': False, 'chat_template_kwargs': {'enable_thinking': False}}), limit: 5.0, num_fewshot: 5, batch_size: 1
+|  Tasks  |Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|---------|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k_val|      3|flexible-extract|     5|exact_match|↑  |    1|±  |     0|
+|         |       |strict-match    |     5|exact_match|↑  |    1|±  |     0|
+

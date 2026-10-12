@@ -6,6 +6,8 @@ The challenge score was test accuracy minus model size in billions of parameters
 
 **Best result so far:** fine-tuning Qwen3-14B on verified solutions from Qwen3-32B raised accuracy on 1,000 held-out questions from **48.5% to 93.9%** (strict match, same evaluation before and after; the untouched model mostly lost points on the required answer format). Qwen3-8B with the same method: **81.9% → 92.8%**. See [Results](#results-before-and-after-fine-tuning).
 
+**Official GSM8K test:** **94.0%** strict match on all 1,319 test questions (1,240 correct), run once at the end on the Qwen3-14B model chosen on validation. See [Official test](#official-test-run-once).
+
 ## What I did
 
 - **Model choice from published results.** I picked Qwen3-4B for the single training run the free plan allowed, based on the base-model GSM8K numbers in the Qwen3 technical report ([arXiv:2505.09388](https://arxiv.org/abs/2505.09388), Table 8), weighing accuracy against parameter count.
@@ -45,6 +47,18 @@ Same 1,000 held-out validation questions, same evaluation (lm-eval 5-shot chat p
 - **No sign of overfitting to the selection set.** Variants were screened on questions 0–199; on questions 200–999, which were not used for selection, the 14B run scores 94.4% and the distilled 8B run 93.0% (the official-answer 8B run: 90.0% vs 87.1% for 1 epoch).
 - **Most of the early gain is format, not maths.** The untouched 8B and 14B models already had the right number in 94.3% and 94.5% of answers but often dropped the required `#### N` line. Fine-tuning on the official answers mainly taught that format while keeping most of the 8B model's correct answers (877 of 943).
 - **The teacher's style mattered for the 14B model.** Trained on solutions written in the terse 5-shot style, Qwen3-14B often ended with a bolded sentence and no `#### N` line (9–24% of answers, not caused by serving noise: also seen one request at a time). Trained on the teacher's own step-by-step style, it kept the format (5 of 1,000 missing).
+
+### Official test (run once)
+
+After all choices were made on validation, the selected model (Qwen3-14B, LoRA r=32, 2 epochs on Qwen3-32B solutions) was evaluated once on the official GSM8K test split with EleutherAI `lm-eval` 0.4.13, task `gsm8k`, 5-shot chat prompts, greedy, max 1,024 generated tokens, thinking off (`scripts/eval_overmind_endpoint.sh <model-ref> test`).
+
+| Split | Questions | Strict match | Flexible extract | Evidence |
+|---|---|---|---|---|
+| Official GSM8K test | 1,319 | **94.0%** (95% CI 92.7–95.3) | 95.1% | `results/round5_test/lm_eval_test_qwen3-14b/` |
+
+- **Validation predicted the test well:** 93.9% on validation vs 94.0% on test.
+- **Clean answers:** no empty responses, no thinking text, 16 of 1,319 answers without a valid `#### N` line.
+- **Challenge score** (test accuracy minus billions of parameters): 94.0 − 14.8 = 79.2. The 8B distilled model would likely score higher on that metric, but it was not run on the test set, since the test split is used only once.
 
 Per-run outputs, sample files and diagnostics are in `results/`.
 
