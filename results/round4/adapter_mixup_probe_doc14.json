@@ -1,0 +1,146 @@
+[
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, the total money he made is:  \n105 * 1.2 = <<105*1.2=126>>126.  \n\nJames made **$126** from selling all the water.",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, the total money he made is:  \n105 * 1.2 = <<105*1.2=126>>126.  \n\nJames made **$126** from selling all the water.",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, the total money he made is:  \n105 * 1.2 = <<105*1.2=126>>126.  \n\nJames made **$126** from selling all the water.",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, the total money he made is:  \n105 * 1.2 = <<105*1.2=126>>126.  \n\nJames made **$126** from selling all the water.",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-fafe4b3f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is 4 * 15 = <<4*15=60>>60 gallons of water.  \nOn Tuesday, James collected 3 inches of rain, which is 3 * 15 = <<3*15=45>>45 gallons of water.  \n\nIn total, he collected 60 + 45 = <<60+45=105>>105 gallons of water.  \n\nIf he sells water for $1.2 per gallon, he made 105 * 1.2 = <<105*1.2=126>>$126 from selling all the water.  \n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected over the two days:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so the total money he made is:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected over the two days:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so the total money he made is:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected over the two days:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so the total money he made is:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected over the two days:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so the total money he made is:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected over the two days:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so the total money he made is:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:\n4 inches \u00d7 15 gallons per inch = <<4*15=60>>60 gallons\n\nOn Tuesday, James collected 3 inches of rain, which is:\n3 inches \u00d7 15 gallons per inch = <<3*15=45>>45 gallons\n\nIn total, he collected:\n60 gallons + 45 gallons = <<60+45=105>>105 gallons\n\nHe sells water for $1.2 per gallon, so the total money he made is:\n105 gallons \u00d7 $1.2 per gallon = <<105*1.2=126>>126 dollars\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:\n4 inches \u00d7 15 gallons per inch = <<4*15=60>>60 gallons\n\nOn Tuesday, James collected 3 inches of rain, which is:\n3 inches \u00d7 15 gallons per inch = <<3*15=45>>45 gallons\n\nIn total, he collected:\n60 gallons + 45 gallons = <<60+45=105>>105 gallons\n\nHe sells water for $1.2 per gallon, so the total money he made is:\n105 gallons \u00d7 $1.2 per gallon = <<105*1.2=126>>126 dollars\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ },
+ {
+  "model": "ft-979f9c8f-qwen3-14b",
+  "doc": 14,
+  "content": "On Monday, James collected 4 inches of rain, which is:  \n4 inches \u00d7 15 gallons per inch = **60 gallons**\n\nOn Tuesday, James collected 3 inches of rain, which is:  \n3 inches \u00d7 15 gallons per inch = **45 gallons**\n\nTotal gallons collected over the two days:  \n60 gallons + 45 gallons = **105 gallons**\n\nHe sells water for $1.2 per gallon, so the total money he made is:  \n105 gallons \u00d7 $1.2 per gallon = **$126**\n\n#### 126",
+  "fp": "vllm-0.30.0-nohash"
+ }
+]

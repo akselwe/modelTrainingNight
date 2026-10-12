@@ -1,0 +1,61 @@
+qwen3-14b_served_nothink_full: 1000 docs to run (0 already done), spent so far $0.0000
+  25/1000 done, spent $0.0056
+  50/1000 done, spent $0.0197
+  75/1000 done, spent $0.0197
+  100/1000 done, spent $0.0251
+  125/1000 done, spent $0.0267
+  150/1000 done, spent $0.0322
+  175/1000 done, spent $0.0322
+  200/1000 done, spent $0.0394
+  225/1000 done, spent $0.0419
+  250/1000 done, spent $0.0449
+  275/1000 done, spent $0.0453
+  300/1000 done, spent $0.0518
+  325/1000 done, spent $0.0553
+  350/1000 done, spent $0.0576
+  375/1000 done, spent $0.0627
+  400/1000 done, spent $0.0699
+  425/1000 done, spent $0.0731
+  450/1000 done, spent $0.0742
+  475/1000 done, spent $0.0793
+  500/1000 done, spent $0.0802
+  525/1000 done, spent $0.0873
+  550/1000 done, spent $0.0873
+  575/1000 done, spent $0.0961
+  600/1000 done, spent $0.0961
+  625/1000 done, spent $0.1027
+  650/1000 done, spent $0.1181
+  675/1000 done, spent $0.1181
+  700/1000 done, spent $0.1181
+  725/1000 done, spent $0.1181
+  750/1000 done, spent $0.1181
+  775/1000 done, spent $0.1203
+  800/1000 done, spent $0.1269
+  825/1000 done, spent $0.1328
+  850/1000 done, spent $0.1328
+  875/1000 done, spent $0.1390
+  900/1000 done, spent $0.1424
+  925/1000 done, spent $0.1431
+  950/1000 done, spent $0.1484
+  975/1000 done, spent $0.1513
+  1000/1000 done, spent $0.1519
+{
+ "n": 1000,
+ "errors": 0,
+ "strict_match": 0.485,
+ "strict_stderr": 0.0158,
+ "flexible_extract": 0.899,
+ "format_free_diagnostic": 0.945,
+ "missing_hash_answer": 484,
+ "truncated_length": 0,
+ "think_tag_in_content": 0,
+ "with_reasoning_tokens": 1000,
+ "mean_completion_tokens": 163.2,
+ "max_completion_tokens": 549,
+ "cost_usd": 0.151864,
+ "providers": [
+  "DeepInfra",
+  "NextBit"
+ ],
+ "doc_ids": "0-999"
+}

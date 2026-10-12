@@ -1,0 +1,19 @@
+{
+ "n": 50,
+ "errors": 0,
+ "strict_match": 0.66,
+ "strict_stderr": 0.0677,
+ "flexible_extract": 0.88,
+ "format_free_diagnostic": 0.9,
+ "missing_hash_answer": 15,
+ "truncated_length": 0,
+ "think_tag_in_content": 0,
+ "with_reasoning_tokens": 0,
+ "mean_completion_tokens": 174.8,
+ "max_completion_tokens": 363,
+ "cost_usd": 0,
+ "providers": [
+  "?"
+ ],
+ "doc_ids": "0-49"
+}

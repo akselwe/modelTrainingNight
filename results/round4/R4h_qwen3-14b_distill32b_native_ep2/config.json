@@ -1,0 +1,14 @@
+{
+ "model": "ft-979f9c8f-qwen3-14b",
+ "suffix": "",
+ "thinking": false,
+ "max_tokens": 1024,
+ "temperature": 0,
+ "stop": [
+  "Question:",
+  "</s>",
+  "<|im_end|>"
+ ],
+ "docs": "0-999",
+ "dataset": "data/val_eval_5shot_chat.jsonl"
+}

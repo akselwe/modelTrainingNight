@@ -1,0 +1,10 @@
+{
+ "rows": 6473,
+ "own_answer": 6331,
+ "official_fallback": 142,
+ "by_attempt": {
+  "0": 6237,
+  "1": 75,
+  "2": 19
+ }
+}

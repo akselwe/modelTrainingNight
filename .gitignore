@@ -18,3 +18,6 @@ results/**/overmind/
 results/**/*credits*
 # Duplicate of verification/r1-qwen3-4b
 results/endpoint_val_ft-4433e717-qwen3-4b/
+
+# Derived from the two distillation files (R4e only, built before the #### cleaning fix); scripts/self_distill.py combine rebuilds it
+data/train_selfdistill_combined_sft.jsonl

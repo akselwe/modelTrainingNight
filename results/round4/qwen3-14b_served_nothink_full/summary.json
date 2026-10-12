@@ -1,0 +1,20 @@
+{
+ "n": 1000,
+ "errors": 0,
+ "strict_match": 0.485,
+ "strict_stderr": 0.0158,
+ "flexible_extract": 0.899,
+ "format_free_diagnostic": 0.945,
+ "missing_hash_answer": 484,
+ "truncated_length": 0,
+ "think_tag_in_content": 0,
+ "with_reasoning_tokens": 1000,
+ "mean_completion_tokens": 163.2,
+ "max_completion_tokens": 549,
+ "cost_usd": 0.151864,
+ "providers": [
+  "DeepInfra",
+  "NextBit"
+ ],
+ "doc_ids": "0-999"
+}
